@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <tabs>
+        <manufacturer_config translate="label">
+            <label>CopeX Extensions</label>
+            <sort_order>50</sort_order>
+        </manufacturer_config>
+    </tabs>
+    <sections>
+        <manufacturer_config translate="label">
+            <label>Manufacturer</label>
+            <tab>manufacturer_config</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>300</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+
+            <groups>
+                <general translate="label">
+                    <label>General</label>
+                    <comment>Activate or Deactivate the Manufacturer Logo on the Product Page</comment>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>10</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <extension_on_off translate="label">
+                            <label>Show Brand Image</label>
+                            <comment>If set to "No", brand image will be placed on the product page.</comment>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>30</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </extension_on_off>
+                    </fields>
+                </general>
+            </groups>
+        </manufacturer_config>
+    </sections>
+</config>

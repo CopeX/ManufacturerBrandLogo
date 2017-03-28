@@ -11,3 +11,5 @@ app/design/frontend/base/default/template/manufacturer/product_manufacturer.phtm
 app/design/frontend/base/default/template/manufacturer/manufacturer.phtml            app/design/frontend/base/default/template/manufacturer/manufacturer.phtml
 app/design/frontend/base/default/template/manufacturer/manufacturer_resize.phtml            app/design/frontend/base/default/template/manufacturer/manufacturer_resize.phtml
 app/design/frontend/base/default/layout/manufacturer.xml            app/design/frontend/base/default/layout/manufacturer.xml
+# skin
+skin/frontend/base/default/css/copex/manufacturer_skin.css            skin/frontend/base/default/css/copex/manufacturer_skin.css

@@ -9,15 +9,15 @@
 -->
 <config>
     <menu>
-        <biztech module="manufacturer">
+        <catalog module="manufacturer">
             <children>
-                <logo module="manufacturer">
+                <manulogo module="manufacturer">
                     <title>Manage Manufacturer</title>
                     <sort_order>0</sort_order>
                     <action>adminhtml/manufacturer</action>
-                </logo>
+                </manulogo>
             </children>
-        </biztech>
+        </catalog>
     </menu>
     <acl>
         <resources>
@@ -26,17 +26,15 @@
             </all>
             <admin>
                 <children>
-                    <biztech>
-                        <title>Biztech</title>
-                        <sort_order>10</sort_order>
+                    <catalog>
                         <children>
-                            <logo module="manufacturer" translate="title">
+                            <manulogo module="manufacturer" translate="title">
                                 <title>Manage Manufacturer</title>
                                 <sort_order>0</sort_order>
                                 <action>adminhtml/manufacturer</action>
-                            </logo>
+                            </manulogo>
                         </children>
-                    </biztech>
+                    </catalog>
                 </children>
             </admin>
         </resources>
