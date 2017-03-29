@@ -4,6 +4,10 @@
         <!--<reference name="top.links">
             <action method="addLink" translate="label title" module="manufacturer"><label>Manufacturers</label><url helper="manufacturer/getManufacturerUrl"/><title>Manufacturers</title><prepare/><urlParams/><position>20</position></action>
         </reference> -->
+        <reference name="head">
+            <action method="addItem"><type>skin_css</type><name>css/copex/manufacturer_skin.css</name></action>
+        </reference>
+
     </default>
     <manufacturer_index_index>
         <reference name="content">
@@ -12,7 +16,8 @@
     </manufacturer_index_index>
     <catalog_product_view>
         <reference name="right">
-            <block type="core/template" name="manufacturer/manufacturer" template="manufacturer/product_manufacturer.phtml" before="-"></block>
+            <block type="manufacturer/manufacturer" name="manufacturer/manufacturer"
+                   template="manufacturer/product_manufacturer.phtml" before="catalog.categories"></block>
         </reference>
     </catalog_product_view>
 </layout> 

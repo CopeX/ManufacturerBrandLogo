@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MagicentoSettings">
+    <option name="pathToMage" value="$PROJECT_DIR$/app/Mage.php" />
+    <option name="enabled" value="false" />
+    <option name="pathToPhp" value="" />
+    <option name="urlToMagento" value="" />
+    <option name="packages" value="" />
+    <option name="themes" value="" />
+    <option name="projectClosedCorrectly" value="false" />
+    <option name="basicAuthUsername" value="" />
+    <option name="basicAuthPassword" value="" />
+    <option name="pathsToMagentoSerialized" value="$PROJECT_DIR$" />
+    <option name="lineMarkerLayoutHandle" value="false" />
+    <option name="customSignatures" value="" />
+    <option name="d" value="pPvHTl34rU+NGc69U5S8/IMDGbUI8MTjjeW0Yif3+Rozo8z2G8Y1cWOBO4gYZEQYz3dFhdekHtru&#13;&#10;g2NL4EEVagO2lp8oIpq45+qatweDr1OLg6CgF4jsHxQI+wdeDF/kCjb+qq1G1xu4p7w1b40GAcwj&#13;&#10;oSiMd4NR9bJy5Ij0SOg=&#13;&#10;" />
+  </component>
+</project>
