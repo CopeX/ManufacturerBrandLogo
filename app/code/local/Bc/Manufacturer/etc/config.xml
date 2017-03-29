@@ -35,21 +35,6 @@
         </routers>
     </admin>
     <adminhtml>
-		<acl>
-			<resources>
-				<all>
-					<title>Allow Everything</title>
-				</all>
-				<admin>
-					<children>
-						<Bc_Manufacturer>
-							<title>Manufacturer Module</title>
-							<sort_order>10</sort_order>
-						</Bc_Manufacturer>
-					</children>
-				</admin>
-			</resources>
-		</acl>
 		<layout>
 			<updates>
 				<manufacturer>

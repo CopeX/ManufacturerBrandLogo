@@ -12,7 +12,7 @@
         <catalog module="manufacturer">
             <children>
                 <manulogo module="manufacturer">
-                    <title>Manage Manufacturer</title>
+                    <title>Manage Manufacturer Images</title>
                     <sort_order>0</sort_order>
                     <action>adminhtml/manufacturer</action>
                 </manulogo>
@@ -21,30 +21,27 @@
     </menu>
     <acl>
         <resources>
-            <all>
-                <title>Allow Everything</title>
-            </all>
             <admin>
                 <children>
-                    <catalog>
+                    <system>
                         <children>
-                            <manulogo module="manufacturer" translate="title">
-                                <title>Manage Manufacturer</title>
-                                <sort_order>0</sort_order>
-                                <action>adminhtml/manufacturer</action>
-                            </manulogo>
+                            <config>
+                                <children>
+                                    <manufacturer_config>
+                                        <children>
+                                            <manulogo module="manufacturer" translate="title">
+                                                <title>Manage Manufacturer</title>
+                                                <sort_order>0</sort_order>
+                                                <action>adminhtml/manufacturer</action>
+                                            </manulogo>
+                                        </children>
+                                    </manufacturer_config>
+                                </children>
+                            </config>
                         </children>
-                    </catalog>
+                    </system>
                 </children>
             </admin>
         </resources>
     </acl>
-    <layout>
-        <updates>
-            <manufacturer>
-                <file>manufacturer.xml</file>
-            </manufacturer>
-        </updates>
-    </layout>
-
 </config>
